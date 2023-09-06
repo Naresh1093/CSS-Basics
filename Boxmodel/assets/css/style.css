@@ -1,0 +1,83 @@
+.commmon{
+    background-color: grey;
+    padding: 20px;
+    margin: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* CSS PADDING */
+.cssPadding > h1, .cssBorder > h1, .cssMargin > h1{
+    background-color: teal;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cssPadding > h1:nth-child(1){
+    padding: 50px;  /*apply for all sides */
+}
+
+.cssPadding > h1:nth-child(2){
+    padding: 50px;  /*apply for vertical horizontal sides */
+}
+
+.cssPadding > h1:nth-child(3){
+    padding: 25px 50px 75px;  /*apply for top horizontal bottom sides */
+}
+
+.cssPadding > h1:nth-child(4){
+    padding: 25px 50px 75px 100px;  /*apply for top right bottom and left  sides */
+}
+
+/* CSS BORDER */
+.cssBorder > h1, .cssMargin > h1{
+    padding: 20px;
+}
+
+.cssBorder > h1:nth-child(1){
+    border: 5px solid red;  /*apply for all sides */
+}
+
+.cssBorder > h1:nth-child(2){
+    border: 5px;
+    border-color: red blue;  /*apply for vertical horizontal sides */
+    border-style: solid;
+}
+
+.cssBorder > h1:nth-child(3){
+    border: 5px;
+    border-color: red blue black;  /*apply for top horizontal bottom sides */
+    border-style: solid;
+}
+
+.cssBorder > h1:nth-child(4){
+    border: 5px;
+    border-color:red blue black green;
+    border-style: solid;  /*apply for top right bottom and left sides */
+}
+
+/* CSS MARGIN */
+.cssMargin > h1:nth-child(1){
+    margin: 50px;  /* apply for all sides */
+}
+
+.cssMargin > h1:nth-child(2){
+    margin: 25px 75px;  /* apply for horizontal vertical sides */
+}
+
+.cssMargin > h1:nth-child(3){
+    margin: 25px 50px 75px;  /* apply for top horizontal bottom sides */
+}
+
+.cssMargin > h1:nth-child(4){
+    margin: 25px 75px;  /* apply for top right bottom and left sides */
+}
+/* CSS BOXMODAL */
+.cssBoxModel{
+    background-color: bisque;
+    padding: 20px;
+    border: 5px solid #000;
+    margin: 30px;
+    color: #808080;
+}
