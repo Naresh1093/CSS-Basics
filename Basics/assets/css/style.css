@@ -1,0 +1,254 @@
+/*? p6.html PAGE DEFINING COLORS */
+
+.cssColor1 {
+    background-color: brown;
+  }
+  .cssColor2 {
+    background-color: #008080;
+  }
+  .cssColor3 {
+    background-color: rgb(220, 20, 60);
+  }
+  .cssCommonColor {
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /*? p7.html css  */
+  .jumbotron {
+    background-color: #8e44ad;
+    border-radius: 10px;
+  }
+  .cssFont {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    font-variant: small-caps;
+  }
+  .cssText {
+    /* text-align: left; */
+    /* text-align: center; */
+    /* text-align: right; */
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    /* text-decoration: line-through; */
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  .cssText > p {
+    text-indent: 100px;
+  }
+  
+  /*? p8.html NAVIGATION BAR */
+  .navBar {
+    background-color: gray;
+    border-radius: 5px;
+  }
+  .navBar > ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+  }
+  .navBar > ul > li {
+    display: inline-block;
+    padding: 20px;
+  }
+  .navBar > ul > li:hover {
+    background-color: #fff;
+  }
+  .navBar > ul > li > a,
+  .list-marker-position > ol > li > a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .navBar > ul > li:hover a {
+    color: gray;
+  }
+  
+  /*? LIST MARKER POSITION */
+  .list-marker-position > ol > li {
+    background-color: #008080;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+  }
+  .list-marker-position > ol > li::marker {
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* ? USING IMAGE or ICONS AS A BULLET POINT */
+  .list-icon > ul > li {
+    list-style-image: url(../images/placeholder.png);
+  }
+  
+  /* ? LIST SHORTHAND PROPERTY */
+  .list-shorthand > ul > li {
+    background-color: #008080;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+  
+    /* list-style-type: none;
+      list-style-position:inside;
+      list-style-image:url(../images/placeholder.png);
+     */
+    list-style: none inside url(../images/placeholder.png);
+  }
+  /* CSS TABLE */
+  .cssTable, .csstable th, .cssstable td{
+    border:2px solid red;
+    border-collapse: collapse;
+    padding: 20px;
+    color: #fff;
+    empty-cells: hide;
+
+  }
+  .cssTable th{
+    background-color: #008080;
+  }
+  .cssTable tr:nth-child(odd){
+    background-color: rgb(154, 153, 153);
+  }
+  .cssTable tr:nth-child(even){
+    background-color: rgb(92, 80, 80);
+  }
+  .cssTable tr:hover{
+    background-color: rgb(59,149, 179)
+  }
+  .cssTable td{
+    height: 100px;
+    vertical-align: center;
+  }
+  .cssTable caption{
+    color: red;
+    font-weight: bold;
+    caption-side: bottom;
+  }
+  /* NAVIGATION BAR */
+  *{
+    padding: 0%;
+    margin: 0%
+  }
+  header{
+    background-color: #008080;
+  }
+  header>nav>ul{
+   list-style-type: none;
+   float: right;
+
+  }header>nav>ul{
+    display: inline-block;
+    padding: 25px;
+  }
+  header>nav>li>:hover{
+    background-color: #fff;
+  }
+  header>nav>li>a{
+    color:#fff;
+    text-decoration: none;
+  }
+  header>nav>li>:hover a{
+    color: #808080;
+  }
+  header>nav>li{
+    height: 64px;
+  }
+  /* BANNER CODE */
+  .commonBaner{
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    height: 400px;
+  }
+  .banner1{
+    background-color: #008080;
+  }
+  .commonBanner>h1{
+    font-size: 60px;
+  }
+  .commonBanner>h1:hover{
+    color: #000;
+  }
+  .banner2{
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  *{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: url(../img/beach.jpg);
+}
+.be-info{
+    text-align: center;
+    width: 330px;
+    padding: 50px 60px 60px;
+    background-color:rgba(0,0,0,0.5);
+    margin: 80px auto;
+    background-repeat: no-repeat;
+    height: 340px; 
+    line-height: 2;
+}
+.be-info>img{
+    width: 40%;
+    border-radius: 85px;
+}
+.be-info2{
+    margin: 10px;
+}
+.be-info2>b{
+    padding: 10px;
+    margin: auto 5px;
+    background-color:rgba(11, 11, 11,0.5);
+    border-radius: 50px;
+}
+.be-info2>b:hover{
+    background-color: white;
+}
+.be-info>button{
+    margin: 10px;
+    padding: 10px 40px;
+   background-color: rgba(11, 11, 11,0.5);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+/* loginform */
+.kumar{
+    text-align: center;
+    width: 250px;
+    padding: 30px;
+    background-color:rgba(0,0,0,0.5);
+    margin: 80px auto;
+    background-repeat: no-repeat;
+    height: 240px; 
+    line-height: 2;
+}
+.kumar input[type="text"], input[type="password"]{
+    border: none;
+    background: transparent;
+    padding: 20px;
+    margin: 10px auto;
+    border-bottom: 1px solid white;
+    color: white;
+   
+}
+.kumar button[type="submit"]{
+ border: none;
+ background: transparent;
+ border-bottom: 2px solid aquamarine;
+ color: aquamarine;
+ width: 60px;
+ margin-right: 100px;
+ text-align: left;
+}

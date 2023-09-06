@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* loginform */
+body{
+    background-color: rgba(0, 0, 0, 0.811);
+}
+.css{
+    text-align: center;
+    width: 250px;
+    padding: 30px;
+    background-color:rgba(0,0,0,0.5);
+    margin: 80px auto;
+    background-repeat: no-repeat;
+    height: 240px; 
+    line-height: 2;
+}
+.css>h3{
+    color: white;
+}
+.css input[type="text"], input[type="password"]{
+    border: none;
+    background: transparent;
+    padding: 20px;
+    margin: 10px auto;
+    border-bottom: 1px solid white;
+    color: white;
+   
+}
+.css button[type="submit"]{
+ border: none;
+ background: transparent;
+ border-bottom: 2px solid aquamarine;
+ color: aquamarine;
+ width: 60px;
+ margin-right: 100px;
+ text-align: left;
+}
